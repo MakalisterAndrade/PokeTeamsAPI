@@ -11,16 +11,13 @@ WORKDIR /app
 COPY requirements.txt /app/
 
 # Instale as dependências a partir do arquivo requirements.txt
-RUN pip install --trusted-host pypi.python.org -r requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 # Copie todo o conteúdo do projeto para o contêiner
-COPY . /app
+COPY . /app/
 
 # Expõe a porta que a aplicação estará escutando (ajuste conforme necessário)
-EXPOSE 80
+EXPOSE 5000
 
-# Define environment variable
-ENV NAME World
-
-# Run main.py when the container launches
+# Comando para iniciar a aplicação (substitua main.py pelo seu arquivo principal)
 CMD ["python", "main.py"]

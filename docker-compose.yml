@@ -1,7 +1,7 @@
 version: '3'
 services:
-  poketeamsapi:
+  pokeapionweblocal:
     build: .
     ports:
-      - "5000:80"
-    command: ["python", "main.py"]  # O comando pode variar conforme o nome do seu arquivo principal
+      - "5000:5000"
+    command: ["python", "main.py"]  
