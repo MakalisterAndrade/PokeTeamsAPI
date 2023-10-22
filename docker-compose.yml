@@ -1,0 +1,7 @@
+version: '3'
+services:
+  poketeamsapi:
+    build: .
+    ports:
+      - "5000:80"
+    command: ["python", "main.py"]  # O comando pode variar conforme o nome do seu arquivo principal
