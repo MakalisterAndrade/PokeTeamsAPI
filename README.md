@@ -1,7 +1,7 @@
 # PokeTeamsAPI
 ## Documentação da API PokeTeams
 
-Este é um guia de documentação para a API PokeTeams, que permite criar e listar times de Pokémons. A documentação inclui instruções para inicializar o projeto com Docker, como usar a API localmente e no Docker Compose, e informações detalhadas sobre cada rota da API com exemplos de entrada e saída.
+Este é um guia de documentação para a API PokeTeams, que permite criar e listar times de Pokémons, utilizando a PokeAPI(https://pokeapi.co/). A documentação inclui instruções para inicializar o projeto com Docker, como usar a API localmente e no Docker Compose, e informações detalhadas sobre cada rota da API com exemplos de entrada e saída.
 
 ## Inicialização com Docker
 
